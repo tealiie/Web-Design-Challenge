@@ -52,15 +52,41 @@
 
         
 
-<!-- Titles and visual plots -->
-    <div class="row">
-        <div class="col-md-8">
-            <h1 class="title"> Summary: Latitude vs. X </h1>
-            <img >
-        </div>
+<!-- Titles paragraphs -->
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12 col-md-8">
+                <div class="box">
+                    <h1 class="title"> Summary: Latitude vs. X </h1>
+                    <hr>
+                        <img src="images/max_temperature.png" alt="Lat vs. Max Temperature" class="index_image">
+                        <p>The purpose of this project was to analyse how weather changes as you get closer to the equator. To accomplish this analysis, we first pulled data from OpenWeatherMap API to assemble a dataset of over 500 cities.</p>
+                        <p>After assembling the dataset, we used Matplotlib to plot various aspects of the weather vs latitude. Factors we looked at included: temperature, cloudiness, wind speed, and humidity. This site provides the source data and visualisations created as part of the analysis, as well as explanations and descriptions of any trends and correlations witnessed.</p>
+                </div>
+            </div>
 
-        <div class="col-md-4">
-            <h1 class="title"> Visualizations </h1>
+            <!-- Visualisations -->
+            <div class="col-sm-12 col-md-4">
+                <div class="box">
+                    <h1 class="title"> Visualizations </h1>
+                    <hr>
+
+                    <a href="web_visualizations/max_temp.html.html">
+                        <img class="float-left thumbnail" src="images/max_temperature.png" alt="Latitude vs. Max Temp">
+                    </a>
+                    <a href="web_visualizations/humidity.html">
+                        <img class="float-right thumbnail" src="images/humidity.png" alt="Latitude vs. Humidity">
+                    </a>
+                    <a href="web_visualizations/cloudiness.html">
+                        <img class="float-left thumbnail" src="images/cloudiness.png" alt="Latitude vs. Cloudiness">
+                    </a>
+                    <a href="web_visualizations/wind_speed.html">
+                        <img class="float-right thumbnail" src="images/wind_speed.png" alt="Latitude vs Wind Speed">
+                    </a>
+                </div>
+                
+                </div>
+            </div>
         </div>
     </div>
 
