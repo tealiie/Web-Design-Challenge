@@ -21,11 +21,11 @@ h2 {
     padding: 10px;
     font-family: 'Times New Roman', Times, serif;
     font-weight: bold;
-
 }
 
-.navigation .nav-item {
-    display: right;
+.navigation {
+    background-color: white;
+    padding: none;
 }
 
 .title {
@@ -73,3 +73,21 @@ h2 {
     height: 100%;
     padding-bottom: 50px;
 }
+
+.dataframe {
+    width: 100%;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+tr {
+    line-height: 12px;
+}
+
+@media (max-width: 700px) {
+    .navbar{
+        background: #63a8a4;
+    }
+
+}
+
